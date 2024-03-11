@@ -1,2 +1,0 @@
-# SimonKang
-Personal  Portfolio Website

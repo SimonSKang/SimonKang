@@ -1,0 +1,151 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #111729;
+    max-width: 1025px;
+    margin: auto;
+}
+
+nav  {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p1 {
+    font-size: 20px;
+    line-height: 36px;
+
+}
+
+h3{
+    margin-top: 20px;
+    margin-bottom: 7px;
+}
+
+header {
+    background-color: #111729;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+
+#logo {
+    font-weight: bold;
+}
+
+#intro {
+    background-color: #111729;
+    color: white;
+    padding-bottom: 50px;
+    padding-top: 100px;
+    display:flex;
+    gap: 100px;
+}
+
+.intro-main{
+    display: flex;
+    flex-direction: column;
+}
+
+.gradient-text {
+    background-image: linear-gradient(60deg, #51afe8  , #5cc3ea );
+    background-clip: text;
+    color: transparent;
+    size: 20px;
+}
+
+.project {
+    display: flex;
+    color: white;
+    background-color: #1e293b;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.education {
+    display: flex;
+    color: white;
+    background-color: #1e293b;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+
+.tags {
+    display: inline-block;
+    background-color: #ddd;
+    border-radius: 5px;
+    padding: 0.3em;
+    margin-right: 0.5em;
+}
+
+.python-tag {
+    display: inline-block;
+    background-color: #38bdf8;
+    border-radius: 5px;
+    padding: 0.3em;
+    margin-right: 0.5em;
+}
+
+
+#menu {
+    display: flex;
+    gap: 10px;
+}
+
+h2 {
+    color: white;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    text-align: right;
+    margin: 0 1em;
+}
+
+main {
+    padding: 1em;
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+
+.project img {
+    width: 200px; 
+    height: 200px;
+    margin-right: 40px;
+    border-radius: 8px;
+}
+
+.education img {
+    width: 200px; 
+    height: 200px;
+    margin-right: 40px;
+    border-radius: 8px;
+}
+
+.self img {
+    margin-top: 50px;
+    width: 250px; 
+    height: 250px; 
+}
+
+.line {
+    border-top: 1px solid #ccc;
+}
+
+.education-info{
+    width: 100%;
+    padding-right: 10px;
+}
