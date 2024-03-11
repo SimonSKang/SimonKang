@@ -107,7 +107,6 @@ header {
     align-items: center;
     flex-wrap: wrap;
     text-align: center;
-
 }
 
 
@@ -157,11 +156,17 @@ main {
     margin-top: 20px;
 }
 
+.linkedin-icon{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
 .icons div{
     width: 50px;
     height: 50px;
     display: flex;
-
 }
 
 .education img {
