@@ -79,18 +79,32 @@ header {
 
 .tags {
     display: inline-block;
-    background-color: #ddd;
+    background-color: #ff0000;
     border-radius: 5px;
-    padding: 0.3em;
-    margin-right: 0.5em;
+    padding: 3px;
+    margin-top: 10px;
+    width: 100px;
+    text-align: center;
+    height: 20px;
 }
 
 .python-tag {
     display: inline-block;
-    background-color: #38bdf8;
+    background-color: #0091cf;
     border-radius: 5px;
-    padding: 0.3em;
-    margin-right: 0.5em;
+    padding: 3px;
+    margin-top: 10px;
+    width: 60px;
+    text-align: center;
+    height: 19px;
+}
+
+.tag-body {
+    display: flex;
+    margin-top: 4px;
+    justify-content: left;
+    gap: 20px;
+    align-items: center;
 }
 
 
@@ -120,6 +134,10 @@ main {
     font-style: normal;
 }
   
+.aon img {
+    width: 200px; 
+    height: 100px;
+}
 
 .project img {
     width: 200px; 
@@ -127,6 +145,7 @@ main {
     margin-right: 40px;
     border-radius: 8px;
 }
+
 
 .education img {
     width: 200px; 
