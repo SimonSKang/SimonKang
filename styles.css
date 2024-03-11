@@ -43,7 +43,7 @@ header {
     background-color: #111729;
     color: white;
     padding-bottom: 50px;
-    padding-top: 100px;
+    padding-top: 50px;
     display:flex;
     gap: 100px;
 }
@@ -68,13 +68,6 @@ header {
     margin-bottom: 30px;
 }
 
-.education {
-    display: flex;
-    color: white;
-    background-color: #1e293b;
-    border-radius: 10px;
-    margin-bottom: 30px;
-}
 
 
 .tags {
@@ -130,22 +123,34 @@ main {
     padding: 1em;
 }
 
+.title{
+    display:flex;
+    justify-content: space-between;
+}
+
+
 .poppins-regular {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
-  
-.aon img {
-    width: 200px; 
-    height: 100px;
+
+a {
+    text-decoration: none;
+    color: white;
+    &:hover{
+        color: #22d3ee;
+    }
 }
 
+
+
 .project img {
-    width: 200px; 
-    height: 200px;
+    width: 20%; 
+    height: 20%;
     margin-right: 40px;
     border-radius: 8px;
+    display: flex;
 }
 
 .icons {
@@ -169,11 +174,32 @@ main {
     display: flex;
 }
 
-.education img {
+.card-img{
+justify-content: center;
+display: flex;
+align-items: center;
+}
+
+.card img {
     width: 200px; 
     height: 200px;
-    margin-right: 40px;
     border-radius: 8px;
+    display: flex;
+}
+
+.card-info{
+    width: 100%;
+    padding-right: 10px;
+}
+
+.card {
+    gap: 50px;
+    height: 100%;
+    display: flex;
+    color: white;
+    background-color: #1e293b;
+    border-radius: 10px;
+    margin-bottom: 30px;
 }
 
 .icons div:hover{
@@ -190,7 +216,12 @@ main {
     border-top: 1px solid #ccc;
 }
 
-.education-info{
+.project-info{
     width: 100%;
     padding-right: 10px;
+}
+
+
+li{
+    margin-left: -25px;
 }

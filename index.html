@@ -22,7 +22,6 @@
         </div>
       </nav>
     </header>
-    z
 
     <main>
       <section id="intro">
@@ -40,7 +39,7 @@
           </p1>
           <div class="icons">
             <a href="https://www.linkedin.com/in/simonskang/">
-              <div>
+              <div class="linkedin-icon">
                 <svg>
                   <use href="images/linkedin.svg#linkicon" />
                 </svg>
@@ -67,83 +66,133 @@
 
       <section id="Work-Experience">
         <h2>Work <span class="gradient-text">Experience</span></h2>
-        <div class="education">
-          <div class="aon">
-            <img src="images/aon.png" alt="Work 1" />
+        <div class="card">
+          <div class="card-img">
+            <img src="images/aon_logo.png" alt="Work 1" />
           </div>
-          <div class="education-info">
-            <h3>Aon</h3>
-            <div class="line"></div>
+          <div class="card-info">
+            <div class="title">
+              <h3>Aon</h3>
+              <h3>2023 - Present</h3>
+            </div>
+            <hr />
             <p>Cyber Security Consulting</p>
           </div>
         </div>
 
-        <div class="project">
-          <img src="images/hitachi.jpg" alt="Work 2" />
-          <div class="education-info">
-            <h3>Hitachi Vantara</h3>
-            <div class="line"></div>
-            <p>Summer Internship</p>
-            <p>Grade: 2:1</p>
-            <p>relevant modules: test,test,test,test,test</p>
+        <div class="card">
+          <div class="card-img">
+            <img src="images/hitachi.jpg" alt="Work 2" />
+          </div>
+          <div class="card-info">
+            <div class="title">
+              <h3>Hitachi Vantara</h3>
+              <h3>2021</h3>
+            </div>
+            <hr />
+            <p><b>Summer Internship</b></p>
+            <ul>
+              <li>
+                Joining weekly calls with large UK and US clients, discussing
+                current migration between data centres
+              </li>
+              <li>
+                Gave presentations on best use of servers and packages for
+                potential clients.
+              </li>
+              <li>
+                Assisted the team in data migration, learning how virtual
+                machines and nodes are used to reducerisk of redundancy when
+                migrating data.
+              </li>
+            </ul>
           </div>
         </div>
       </section>
 
       <section id="Education">
-        <h2><span class="gradient-text"> Education </span></h2>
-        <div class="education">
-          <img src="images/qm-logo.png" alt="Education 2" />
-          <div class="education-info">
-            <h3>Queen Mary University Of London</h3>
-            <div class="line"></div>
+        <h2>
+          <span class="gradient-text"> Education </span>
+        </h2>
+        <div class="card">
+          <div class="card-img">
+            <img src="images/qm-logo.png" alt="Education 2" />
+          </div>
+          <div class="card-info">
+            <div class="title">
+              <h3>Queen Mary University Of London</h3>
+              <h3>2021 - 2022</h3>
+            </div>
+            <hr />
             <p>Course: MSc Computer Science</p>
             <p>Grade: Merit</p>
-            <p>relevant modules: test,test,test,test,test,</p>
+            <p>
+              Relevant modules: Semi-Structured Data and Advanced Data
+              Modelling, Security and Authentication, Distributed Systems,
+              Functional Programming, Information Retrieval, Natural Language
+              Processing.
+            </p>
           </div>
         </div>
 
-        <div class="education">
-          <img src="images/westminster.jpeg" alt="Education 2" />
-          <div class="education-info">
-            <h3>University Of Westminster</h3>
-            <div class="line"></div>
+        <div class="card">
+          <div class="card-img">
+            <img src="images/westminster.jpeg" alt="Education 2" />
+          </div>
+          <div class="card-info">
+            <div class="title">
+              <h3>University Of Westminster</h3>
+              <h3>2018-2021</h3>
+            </div>
+            <hr />
             <p>Course: BSc Computer Science</p>
             <p>Grade: 2:1</p>
-            <p>relevant modules: test,test,test,test,test</p>
+            <p>
+              Relevant Modules: Database Systems, Server-side Web development,
+              Security and Forensics, Object Orientated Programming, Software
+              Development Group Project, Web Design and Development, Client
+              Server Architecture.
+            </p>
           </div>
         </div>
       </section>
 
       <section id="projects">
         <h2>Recent <span class="gradient-text"> Projects</span></h2>
-        <div class="project">
+        <div class="card">
           <img src="images/skand.webp" alt="Project 1" />
-          <div class="project-info">
+          <div class="card-info">
             <div class="tag-body">
-              <h3>Skand.py</h3>
+              <a href="https://github.com/SimonSKang/SKAND">
+                <h3>Skand.py</h3></a
+              >
               <span class="python-tag">Python</span>
               <span class="tags">Web design</span>
             </div>
+            <hr />
             <p>
               A simple DFIR tool to format reports generated from disk images
             </p>
           </div>
         </div>
-        <div class="project">
+        <div class="card">
           <img src="images/OPR.webp" alt="Project 1" />
-          <div class="project-info">
+          <div class="card-info">
             <div class="tag-body">
               <h3>Optical Music Recognition Project</h3>
               <span class="python-tag">Python</span>
               <span class="tags">Web design</span>
             </div>
-            <p>Lorem ipsum dolor sit amet...</p>
+            <hr />
+            <p>
+              A OMR project based on convolutional recurrent neural networks. I
+              created and trained a neural network to detect different sheet
+              music symbols and notes on a staff and play them back to a user.
+            </p>
           </div>
         </div>
       </section>
     </main>
-
     <footer>
       <!-- Footer content here -->
     </footer>
